@@ -13,6 +13,8 @@ export class SqlTable {
         query(hi?: string, sql:string = "abc"){//optional and default params
 
             console.log(`Executing SQL ${sql}`);
+
+            hi
             
 
         }
